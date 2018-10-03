@@ -36,7 +36,7 @@
 
 10. Remove all games not made by 'Hudson Soft'.
 
--- DELETE from games WHERE developers= 'Hudson Soft';
+-- DELETE from games WHERE developers != 'Hudson Soft';
 
 11. Show the average release year for games that were made by Rare or have the title Tony Hawk''s Pro Skater
 
